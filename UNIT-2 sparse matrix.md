@@ -23,6 +23,9 @@
 ```
 ### Fast transpose
 
+<img width="902" height="461" alt="image" src="https://github.com/user-attachments/assets/6e87057c-b5fd-4026-a6ee-30277edb441c" />
+
+
 ```c
 void fast_transpose(int sparse[][], int trans[][]){
     int col=sparse[0][1];
