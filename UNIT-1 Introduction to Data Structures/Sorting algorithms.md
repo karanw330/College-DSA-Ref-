@@ -2,7 +2,7 @@
 ### 1. Bubble Sort
 ```c
 void bubble(int arr[], int arrsize){
-    for (int i = 0; i < arrsize - 1; i++){
+    for (int i = 1; i < arrsize - 1; i++){
         for (int j = 0; j < arrsize - i - 1; j++){
             if (arr[j] > arr[j + 1]){
                 int temp = arr[j];
